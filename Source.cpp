@@ -7,6 +7,7 @@
 
 using namespace std;
 
+// Cirular buffer comunication library:
 string role = "";
 string random = "";
 int numMsgs = 0;
