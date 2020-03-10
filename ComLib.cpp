@@ -3,6 +3,7 @@
 
 using namespace std;
 
+// Cirular buffer comunication library:
 ComLib::ComLib(const std::string & secret, const size_t & buffSize, ROLE type)
 {
 	ms = INT_MAX;
