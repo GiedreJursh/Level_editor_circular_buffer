@@ -8,6 +8,8 @@
 
 using namespace std;
 
+// Maya Plug-in using Maya API
+
 static const char* panel1 = "modelPanel1";
 static const char* panel2 = "modelPanel2";
 static const char* panel3 = "modelPanel3";
