@@ -498,7 +498,7 @@ void cameraUpdate(const MString &str, void *clientData)
 		if (activeCam.name().asChar()[0] == 112)
 		{
 			sendCamInfo->variables[2] = 0;
-			sendCamData->fovy = fovy * 25.4f;		// verticalFilmAperture returns in inch. Convert to mm: 1inch = 25.4mm.
+			sendCamData->fovy = fovy * 25.4f;		// verticalFilmAperture returns in inch. Convert to mm: 1inch = 25.4mm
 		}
 		else
 		{
