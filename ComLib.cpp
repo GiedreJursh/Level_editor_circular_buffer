@@ -20,7 +20,7 @@ ComLib::ComLib(const std::string & secret, const size_t & buffSize, ROLE type)
 		exit(-1);
 	}
 
-	// Create the memory data buffer
+	// Create the memory data buffer:
 	mData = MapViewOfFile(hFileMap, FILE_MAP_ALL_ACCESS, 0, 0, 0);
 	// Assign the pointers to the beginning of the buffer
 	head = (size_t*)mData;
