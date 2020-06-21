@@ -13,7 +13,7 @@
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
 
-// Target Engine main file (Raylib)
+// Target Engine main file (Raylib):
 struct modelPos
 {
 	Model model;
