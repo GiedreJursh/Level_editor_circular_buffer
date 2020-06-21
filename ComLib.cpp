@@ -1,6 +1,6 @@
 #include "ComLib.h"
 #include <iostream>
-
+// Daniel was here
 using namespace std;
 
 // Cirular buffer comunication library:
