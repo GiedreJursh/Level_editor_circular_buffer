@@ -147,7 +147,7 @@ public:
 	// @msg contains the actual message read.
 	bool recv(INFO *msg, MESH_V *mesh_v, LIGHT_T *light_t, CAMERA_T *camera_t, TRANSFORM_T *transform_t, MATERIAL_S *material_s, DELETE_INFO_MSG *deleteInfo_msg, NAME_CHANGED_MSG *nameChanged_msg, size_t &length);
 	// return the length of the next message
-	// return 0 if no message is available.
+	// return 0 if no message is available
 	size_t nextSize();
 
 	/* destroy all resources */
