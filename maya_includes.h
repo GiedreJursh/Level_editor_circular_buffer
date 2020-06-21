@@ -1,6 +1,6 @@
 #pragma once
 // Maya Plug-in using Maya API
-// some definitions for the DLL to play nice with Maya
+// some definitions for the DLL to play nice with Maya.
 #define NT_PLUGIN
 #define REQUIRE_IOSTREAM
 #define EXPORT __declspec(dllexport)
